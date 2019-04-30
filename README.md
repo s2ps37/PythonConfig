@@ -1,1 +1,3 @@
 # PythonConfig
+
+Simple config for httpd, my.cnf etc...
