@@ -320,6 +320,7 @@ class ConfigHttpdCtl:
         lineno = 0
         cnt_sec = 0
         self.array_contents = []
+        self.section = []
         while True:
             line = fp.readline()
             if not line:
