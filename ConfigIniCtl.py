@@ -176,8 +176,8 @@ class ConfigIniCtl:
         data = line.split('=')
         
         if len(data) >= 2:
-            key = data[0]
-            val = data[1]
+            key = data[0].rstrip()
+            val = data[1].lstrip()
             
         #print "_splitkeyval data %s %s"  % (key,val)
         return key,val
